@@ -20,7 +20,7 @@ fn main() {
         .unwrap();
 
     // let creds = Credentials::new("".to_owned(), "".to_owned()); // 使用你的Gmail账户名和密码
-    let creds = Credentials::new("1024536444@qq.com".to_owned(), "zpgkz1024536444".to_owned());
+    let creds = Credentials::new("".to_owned(), "".to_owned());
 
     // // 使用Gmail的SMTP服务器
     // let mailer = SmtpTransport::relay("smtp.gmail.com")
